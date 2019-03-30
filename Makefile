@@ -11,5 +11,3 @@ bitmaploader.o : bitmaploader.cpp
 sauna.o : sauna.cpp
 	g++ -c -o sauna.o sauna.cpp
 
-clean:
-	rm *.o sauna
