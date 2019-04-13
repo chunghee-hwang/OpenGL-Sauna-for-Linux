@@ -4,8 +4,7 @@
 extern const double rotate;
 extern const double PI;
 extern float vertex[100][3];
-extern float vertex[100][3];
-//¸Æ¹İ¼® translate À§Ä¡ ÀúÀå
+//ë§¥ë°˜ì„ translate ìœ„ì¹˜ ì €ì¥
 extern float mbsVertex[200][3];
 extern double showerHeadVertex[20][3];
 void desk();  
@@ -69,5 +68,5 @@ double Cos(double angle);
 void cube2();
 void cube3();
 void cube4();
-void sphere(GLfloat r, int slice, int stack); //±¸ ±×¸®±â
+void sphere(GLfloat r, int slice, int stack); //êµ¬ ê·¸ë¦¬ê¸°
 #endif
